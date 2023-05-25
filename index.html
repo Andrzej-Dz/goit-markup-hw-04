@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zad-dom-1-Index</title>
+    <link rel="stylesheet" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,17 +16,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="strona naglowek odstep">
       <a class="logo logo-margines-lewy" href="index.html">
         <span>Web</span><span class="logo-stopka-gora">Studio</span>
       </a>
+
       <nav style="padding-left: 93px">
         <a class="link" href="index.html">Agencja</a>
         <span style="padding-left: 46px"></span>
@@ -33,15 +33,29 @@
         <span style="padding-left: 46px"></span>
         <a class="link" href="#">Kontakty</a>
       </nav>
-      <a
-        class="kontakt"
-        href="mailto:info@devstudio.com"
-        style="padding-left: 364px"
-        >info@devstudio.com</a
-      >
-      <a class="kontakt" href="#" style="padding-left: 50px">+48 111 111 111</a>
+
+      <div class="kontakt-icon" style="padding-left: 345px">
+        <svg width="16" height="12" style="border: 1px solid red">
+          <use href="./images/icons.svg#icon-mail-koperta"></use>
+        </svg>
+        <a
+          class="kontakt"
+          href="mailto:info@devstudio.com"
+          style="border: 1px dashed green"
+          >info@devstudio.com
+        </a>
+      </div>
+
+      <div class="kontakt-icon" style="padding-left: 30px">
+        <svg width="10" height="16" style="border: 1px solid red">
+          <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+        <a class="kontakt" href="#" style="border: 1px dashed green"
+          >+48 111 111 111</a
+        >
+      </div>
     </header>
-    <!-- <div class="strona"> -->
+
     <main class="strona">
       <section class="ogloszenie">
         <h1>
@@ -50,71 +64,87 @@
         </h1>
         <button class="przycisk-usluga przycisk-aktywny">Zamów usługę</button>
       </section>
-      <div class="odstep-sekcji">
-        <table>
-          <tr>
-            <td>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et melesuada
-              </p>
-            </td>
-            <td>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et melesuada
-              </p>
-            </td>
-            <td>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et melesuada
-              </p>
-            </td>
-            <td>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et melesuada
-              </p>
-            </td>
-          </tr>
-        </table>
+
+      <div class="tabela-ipsum odstep-sekcji">
+        <div>
+          <div class="box">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <p>LOREM IPSUM</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et melesuada
+          </p>
+        </div>
+        <div>
+          <div class="box">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <p>LOREM IPSUM</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et melesuada
+          </p>
+        </div>
+        <div>
+          <div class="box">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <p>LOREM IPSUM</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et melesuada
+          </p>
+        </div>
+        <div>
+          <div class="box">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <p>LOREM IPSUM</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+            arcu sem. Sed non sodales dui. Interdum et melesuada
+          </p>
+        </div>
       </div>
-      <div class="odstep-sekcji-dolny">
+
+      <section class="odstep-sekcji-dolny">
         <h2 class="sekcja-naglowek">Czym się zajmujemy</h2>
-        <table class="tabela-obrazkow">
-          <tr>
-            <td>
-              <img
-                src="./images/pict1.jpg"
-                alt="pict1"
-                width="370"
-                height="294"
-              />
-            </td>
-            <td>
-              <img
-                src="./images/pict2.jpg"
-                alt="pict2"
-                width="370"
-                height="294"
-              />
-            </td>
-            <td>
-              <img
-                src="./images/pict3.jpg"
-                alt="pict3"
-                width="370"
-                height="294"
-              />
-            </td>
-          </tr>
-        </table>
-      </div>
+        <div class="wiersz-obrazow">
+          <img src="./images/pict1.jpg" alt="pict1" width="370" height="294" />
+          <img src="./images/pict2.jpg" alt="pict2" width="370" height="294" />
+          <img src="./images/pict3.jpg" alt="pict3" width="370" height="294" />
+        </div>
+      </section>
+
       <section class="odstep-sekcji" style="background: #f5f4fa">
         <h2 class="sekcja-naglowek">Nasz Zespół</h2>
         <div class="wiersz-obrazow">
@@ -127,6 +157,40 @@
             />
             <figcaption class="obraz-zespol-imie">John Doe</figcaption>
             <figcaption class="obraz-zespol-tytul">Product Designer</figcaption>
+            <div class="social-media">
+              <svg
+                class="icon"
+                width="44"
+                height="44"
+                style="border: 1px solid red"
+              >
+                <use href="./images/icons.svg#icon-antena"></use>
+              </svg>
+              <svg
+                class="icon"
+                width="44"
+                height="44"
+                style="border: 1px solid tomato"
+              >
+                <use href="./images/icons.svg#icon-antena"></use>
+              </svg>
+              <svg
+                class="icon"
+                width="44"
+                height="44"
+                style="border: 1px solid green"
+              >
+                <use href="./images/icons.svg#icon-antena"></use>
+              </svg>
+              <svg
+                class="icon"
+                width="44"
+                height="44"
+                style="border: 1px solid rebeccapurple"
+              >
+                <use href="./images/icons.svg#icon-antena"></use>
+              </svg>
+            </div>
           </figure>
           <figure>
             <img
@@ -162,23 +226,129 @@
           </figure>
         </div>
       </section>
+
+      <section class="odstep-sekcji" style="background: white">
+        <h2 class="sekcja-naglowek">Nasi klienci</h2>
+        <div class="tabela-ipsum">
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+          <div class="box2">
+            <svg
+              class="icon"
+              width="30"
+              height="30"
+              style="border: 1px solid red"
+            >
+              <use href="./images/icons.svg#icon-antena"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
     </main>
+
     <footer class="strona stopka">
-      <p class="logo">
-        <span>Web</span>
-        <span class="logo-stopka-dol">Studio</span>
-      </p>
-      <address>
-        <p class="kontakt kontakt-adres">m. Warszawa, Al.Jerozolimskie 21</p>
-        <p style="padding-top: 8px">
-          <a class="kontakt kontakt-stopka" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+      <div>
+        <p class="logo">
+          <span>Web</span>
+          <span class="logo-stopka-dol">Studio</span>
+        </p>
+        <address>
+          <p class="kontakt kontakt-adres">m. Warszawa, Al.Jerozolimskie 21</p>
+          <p style="padding-top: 8px">
+            <a class="kontakt kontakt-stopka" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </p>
+          <p class="kontakt kontakt-stopka" style="padding-top: 8px">
+            +48 111 111 111
+          </p>
+        </address>
+      </div>
+      <div>
+        <p class="stopka-2" style="border: 1px solid white">DOŁĄCZ DO NAS</p>
+        <div class="social-media">
+          <svg
+            class="icon"
+            width="44"
+            height="44"
+            style="border: 1px solid red"
           >
-        </p>
-        <p class="kontakt kontakt-stopka" style="padding-top: 8px">
-          +48 111 111 111
-        </p>
-      </address>
+            <use href="./images/icons.svg#icon-antena"></use>
+          </svg>
+          <svg
+            class="icon"
+            width="44"
+            height="44"
+            style="border: 1px solid tomato"
+          >
+            <use href="./images/icons.svg#icon-antena"></use>
+          </svg>
+          <svg
+            class="icon"
+            width="44"
+            height="44"
+            style="border: 1px solid green"
+          >
+            <use href="./images/icons.svg#icon-antena"></use>
+          </svg>
+          <svg
+            class="icon"
+            width="44"
+            height="44"
+            style="border: 1px solid rebeccapurple"
+          >
+            <use href="./images/icons.svg#icon-antena"></use>
+          </svg>
+        </div>
+      </div>
     </footer>
     <!-- </div> -->
   </body>
