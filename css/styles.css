@@ -379,16 +379,23 @@ margin-bottom: 30px;
   color: var(--kolor-logo);
 }
 
-.icon-social-media-stopkax {
+.icon-social-media-stopka {
   display: flex;
   justify-content: center;
   /* align-items: center; */
   margin-bottom: 30px;
   gap: 10px;
-
-  color: white
   width: 44px;
   height: 44px;
+  fill: white
+}
+
+.kolo {
+  display: flex;
+  gap:10px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid white;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
