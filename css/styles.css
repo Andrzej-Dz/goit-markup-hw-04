@@ -329,17 +329,6 @@ margin-bottom: 30px;
   fill: var(--kolor-ikon);
 }
 
-.icon:hover,
-.icon:focus {
-  color: var(--kolor-logo);
-}
-
-/* test  */
-.box:hover,
-.box:focus {
-  color: red;
-}
-
 .kontakt-icon {
   display: flex;
   flex-direction: row;
@@ -368,11 +357,12 @@ margin-bottom: 30px;
 
   .box2 {
     display: flex;
+    width: 170px;
     height: 92px;
     border: 1px solid var(--kolor-ikon);
     border-radius: 4px;
     background-color:white;
-    width: 170px;
+
     justify-content: center;
     align-items: center;
   }
@@ -382,7 +372,7 @@ margin-bottom: 30px;
     justify-content: center;
     /* align-items: center; */
     margin-bottom: 30px;
-    gap: 10px
+    gap: 10px;
     color: var(--kolor-ikon);
   }
 
@@ -403,10 +393,10 @@ margin-bottom: 30px;
 
 .kolo {
   display: flex;
-    width: 44px;
+  width: 44px;
   height: 44px;
   gap:10px;
-  border: 2px solid red
+  border: 2px solid ;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
