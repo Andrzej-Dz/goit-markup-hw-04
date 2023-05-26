@@ -7,6 +7,7 @@
   --kolor-margines-poziomy: #ececec;
   --kolor-tlo: #e5e5e5;
   --kolor-ramki-zdjec: #eeeeee;
+  --kolor-ikon:  #AFB1B8;
 }
 
 * {
@@ -141,9 +142,11 @@ margin-left:15px;
   color: var(--kolor-domyslny);
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--kolor-logo);
 }
+
 
 .kontakt {
   text-decoration: none;
@@ -318,10 +321,14 @@ margin-bottom: 30px;
 }
 
 .icon {
-   border-radius: 8px;
+   /* border-radius: 8px; */
   fill: #2a2a2a;
-
 }
+
+/* .icon:hover,
+.icon:focus {
+  color: var(--kolor-logo);
+} */
 
 .kontakt-icon {
   display: flex;
@@ -337,7 +344,6 @@ margin-bottom: 30px;
     gap: 30px;
     padding-left: 15px;
     padding-right: 15px;
- 
   }
 
   .box {
@@ -353,7 +359,7 @@ margin-bottom: 30px;
   .box2 {
     display: flex;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--kolor-ikon);
     border-radius: 4px;
     background-color:white;
     width: 170px;
@@ -361,12 +367,25 @@ margin-bottom: 30px;
     align-items: center;
   }
 
-  .social-media {
+  .icon-social-media {
     display: flex;
     justify-content: center;
     /* align-items: center; */
     margin-bottom: 30px;
     gap: 10px
-    fill: #AFB1B8;
+    fill: var(--kolor-ikon);
   }
 
+  .icon-social-media:hover,
+  .icon-social-media:focus {
+  color: var(--kolor-logo);
+}
+
+.icon-klienci {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  fill: var(--kolor-ikon)
+}
