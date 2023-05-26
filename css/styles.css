@@ -323,10 +323,22 @@ margin-bottom: 30px;
   fill: #2a2a2a;
 }
 
-/* .icon:hover,
+.icon2 {
+  width="106";
+  height="60";
+  fill: var(--kolor-ikon);
+}
+
+.icon:hover,
 .icon:focus {
   color: var(--kolor-logo);
-} */
+}
+
+/* test  */
+.box:hover,
+.box:focus {
+  color: red;
+}
 
 .kontakt-icon {
   display: flex;
