@@ -407,4 +407,5 @@ margin-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
   color: var(--kolor-ikon)
+  border 2px dashed red;
 }
