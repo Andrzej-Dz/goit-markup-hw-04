@@ -373,12 +373,25 @@ margin-bottom: 30px;
     /* align-items: center; */
     margin-bottom: 30px;
     gap: 10px
-    fill: var(--kolor-ikon);
+    color: var(--kolor-ikon);
   }
 
   .icon-social-media:hover,
   .icon-social-media:focus {
   color: var(--kolor-logo);
+}
+
+.icon-social-media-stopka {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 30px;
+  gap: 10px;
+  color: white
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icon-klienci {
@@ -387,5 +400,5 @@ margin-bottom: 30px;
   gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  fill: var(--kolor-ikon)
+  color: var(--kolor-ikon)
 }
