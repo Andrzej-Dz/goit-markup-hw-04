@@ -367,6 +367,18 @@ margin-bottom: 30px;
     align-items: center;
   }
 
+  .kolo {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    gap:10px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+  }
+
   .icon-social-media {
     display: flex;
     justify-content: center;
@@ -391,13 +403,5 @@ margin-bottom: 30px;
   fill: white
 }
 
-.kolo {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  gap:10px;
-  border: 2px solid ;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-}
+
 
