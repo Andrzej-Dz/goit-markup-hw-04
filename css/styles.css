@@ -391,6 +391,7 @@ margin-bottom: 16px;
     height: 44px;
     gap:10px;
     border-radius: 50%;
+    border: 1px solid red;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -407,9 +408,9 @@ margin-bottom: 16px;
 
   .kolo-biale:hover,
   .kolo-biale:focus {
-    /* width: 44px;
+    width: 44px;
     height: 44px;
-    border-radius:50%; */
+    border-radius:50%;
     background-color: var(--kolor-logo);
     /* fill: red; */
   }
