@@ -328,9 +328,7 @@ margin-bottom: 16px;
   .kontakt-icon:hover,
   .kontakt-icon:focus,
   .kontakt:hover,
-  .kontakt:focus,
-  .kontakt-icon:hover,
-  .kontakt-icon:focus {
+  .kontakt:focus {
     fill: var(--kolor-logo);
     color: var(--kolor-logo);
   }
@@ -392,12 +390,12 @@ margin-bottom: 16px;
 
   .icon-social-media:hover,
   .icon-social-media:focus {
-    display: flex;
+    /* display: flex; */
     width: 44px;
     height: 44px;
-    fill: var(--kolor-logo);
-    color: red);
-
+    border-radius:50%;
+    background-color: var(--kolor-logo);
+    fill: red;
   }
 
 .icon-social-media-stopka {
