@@ -327,8 +327,11 @@ margin-bottom: 16px;
 
   .kontakt-icon:hover,
   .kontakt-icon:focus,
-  div a>.kontakt {
+   {
     fill: var(--kolor-logo);
+  }
+.kontakt:hover,
+.kontakt:focus {
     color: var(--kolor-logo);
   }
 
