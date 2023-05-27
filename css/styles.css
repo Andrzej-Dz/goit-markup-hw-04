@@ -327,13 +327,15 @@ margin-bottom: 16px;
 
   .kontakt-icon:hover,
   .kontakt-icon:focus,
-   {
+  .kontakt:hover,
+  .kontakt:focus {
     fill: var(--kolor-logo);
-  }
-.kontakt:hover,
-.kontakt:focus {
     color: var(--kolor-logo);
   }
+/* .kontakt:hover,
+.kontakt:focus {
+    color: var(--kolor-logo);
+  } */
 
   .tabela-ipsum {
     display: flex;
