@@ -392,8 +392,8 @@ margin-bottom: 30px;
     color: var(--kolor-ikon);
   }
 .icon-social-zespol {
-  /* width: "44";
-  height: "44"; */
+  width: "44";
+  height: "44";
   fill: var(--kolor-ikon)
 }
 
