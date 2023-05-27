@@ -345,6 +345,14 @@ margin-bottom: 30px;
     padding-right: 15px;
   }
 
+  .tabela-ipsum2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .box {
     display: flex;
     height: 120px;
