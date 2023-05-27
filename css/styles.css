@@ -176,12 +176,6 @@ margin-left:15px;
   font-weight: 400;
 }
 
-/* .kontakt:hover {
-  text-decoration-color: var(--kolor-logo);
-} */
-
-
-
 .wiersz-przyciskow {
   padding-bottom: 50px;
   display: flex; 
@@ -332,7 +326,8 @@ margin-bottom: 16px;
   }
 
   .kontakt-icon:hover,
-  .kontakt-icon:focus {
+  .kontakt-icon:focus,
+  div a>.kontakt {
     fill: var(--kolor-logo);
     color: var(--kolor-logo);
   }
@@ -390,6 +385,16 @@ margin-bottom: 16px;
     margin-bottom: 30px;
     gap: 10px;
     color: var(--kolor-ikon);
+  }
+
+  .icon-social-media:hover,
+  .icon-social-media:focus {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    fill: var(--kolor-logo);
+    color: red);
+
   }
 
 .icon-social-media-stopka {
