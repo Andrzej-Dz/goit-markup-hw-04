@@ -315,7 +315,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 margin-top: 10px;
-margin-bottom: 30px;
+margin-bottom: 16px;
 }
 
 .icon {
@@ -391,17 +391,6 @@ margin-bottom: 30px;
     gap: 10px;
     color: var(--kolor-ikon);
   }
-.icon-social-zespol {
-  /* width: "44";
-  height: "44"; */
-  fill: var(--kolor-ikon)
-}
-
-.icon-soc-zesp {
-  width: "44";
-  height: "44";
-  fill: var(--kolor-ikon)
-}
 
 .icon-social-media-stopka {
   display: flex;
