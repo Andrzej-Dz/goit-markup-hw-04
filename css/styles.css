@@ -369,6 +369,11 @@ margin-bottom: 16px;
     gap: 30px;
   }
 
+  .box2:hover,
+  .box2:focus {
+    color: var(--kolor-logo);
+  }
+
   .kolo {
     display: flex;
     width: 44px;
