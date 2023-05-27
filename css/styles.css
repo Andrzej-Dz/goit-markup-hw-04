@@ -362,7 +362,6 @@ margin-bottom: 30px;
     border: 1px solid var(--kolor-ikon);
     border-radius: 4px;
     background-color:white;
-
     justify-content: center;
     align-items: center;
   }
@@ -372,7 +371,6 @@ margin-bottom: 30px;
     width: 44px;
     height: 44px;
     gap:10px;
-    border: 2px solid red;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     justify-content: center;
@@ -392,7 +390,6 @@ margin-bottom: 30px;
   display: flex;
   justify-content: center;
   gap: 10px;
-  /* align-items: center; */
   margin-bottom: 30px;
   fill: white
 }
