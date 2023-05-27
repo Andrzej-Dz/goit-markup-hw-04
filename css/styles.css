@@ -323,12 +323,6 @@ margin-bottom: 16px;
   fill: #2a2a2a;
 }
 
-.icon2 {
-  width:"106";
-  height:"60";
-  fill: var(--kolor-ikon);
-}
-
 .kontakt-icon {
   display: flex;
   flex-direction: row;
