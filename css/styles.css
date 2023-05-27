@@ -387,14 +387,13 @@ margin-bottom: 30px;
   .icon-social-media {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-bottom: 30px;
     gap: 10px;
     color: var(--kolor-ikon);
   }
 .icon-social-zespol {
-  width: "44";
-  height: "44";
+  /* width: "44";
+  height: "44"; */
   fill: var(--kolor-ikon)
 }
 
