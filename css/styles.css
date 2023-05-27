@@ -397,6 +397,12 @@ margin-bottom: 30px;
   fill: var(--kolor-ikon)
 }
 
+.icon-soc-zesp {
+  width: "44";
+  height: "44";
+  fill: var(--kolor-ikon)
+}
+
 .icon-social-media-stopka {
   display: flex;
   justify-content: center;
