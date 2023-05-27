@@ -388,18 +388,12 @@ margin-bottom: 30px;
     color: var(--kolor-ikon);
   }
 
-  .icon-social-media:hover,
-  .icon-social-media:focus {
-  color: var(--kolor-logo);
-}
-
 .icon-social-media-stopka {
   display: flex;
   justify-content: center;
   gap: 10px;
   /* align-items: center; */
   margin-bottom: 30px;
-
   fill: white
 }
 
