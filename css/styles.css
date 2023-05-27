@@ -168,7 +168,8 @@ margin-left:15px;
 }
 
 .kontakt-adres:hover {
-  text-decoration-color: var(--kolor-logo);
+  /* text-decoration-color: var(--kolor-logo); */
+  color: var(--kolor-logo);
 }
 
 .kontakt-stopka {
@@ -341,7 +342,7 @@ margin-bottom: 16px;
     padding-right: 15px;
   }
 
-  .tabela-ipsum2 {
+  .tabela-klienci {
     display: flex;
     justify-content: center;
     gap: 30px;
