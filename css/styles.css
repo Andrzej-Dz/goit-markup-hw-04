@@ -386,6 +386,11 @@ margin-bottom: 16px;
     align-items: center;
   }
 
+  .kolo:hover,
+  .kolo.focus {
+  color: var(--kolor-logo);
+  }
+
   .kolo-biale {
     display: flex;
     width: 44px;
