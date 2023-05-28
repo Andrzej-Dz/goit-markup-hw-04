@@ -372,6 +372,7 @@ margin-bottom: 16px;
   .box2:hover,
   .box2:focus {
     color: var(--kolor-logo);
+    fill: var(--kolor-logo);
   }
 
   .kolo {
@@ -391,7 +392,7 @@ margin-bottom: 16px;
     height: 44px;
     gap:10px;
     border-radius: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: white;
     justify-content: center;
     align-items: center;
