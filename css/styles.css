@@ -367,12 +367,15 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    fill: var(--kolor-ikon);
   }
+
+.box2 svg{
+  fill: var(--kolor-ikon)
+}
 
   .box2:hover,
   .box2:focus {
-    color: var(--kolor-logo);
+    border-color: var(--kolor-logo);
     fill: var(--kolor-logo);
   }
 
