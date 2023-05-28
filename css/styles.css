@@ -367,6 +367,7 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    fill: var(--kolor-ikon);
   }
 
   .box2:hover,
