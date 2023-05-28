@@ -108,6 +108,7 @@ img {
 }
 
 .logo {
+  display: flex;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -222,8 +223,6 @@ margin-left:15px;
   font-size: 16px;
   line-height: 30px;
   display: flex;
-  /* align-items: center;
-  text-align: center; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 42px;
@@ -256,23 +255,33 @@ border-radius: 4px;
   border-width: 1px;
 }
 
-.wiersz-obrazow {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
 .kolumna-obrazow {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
+.wiersz-obrazow {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.wiersz-obrazow > div:hover {
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .wiersz-obrazow div div {
   border: 1px solid var(--kolor-ramki-zdjec);
 }
 
-.wiersz-obrazow figure {
+.wiersz-zespolu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.wiersz-zespolu> div {
   /* border: 1px solid green; */
   border-radius: 0px 0px 4px 4px;
   background-color: white;
@@ -328,11 +337,8 @@ margin-bottom: 16px;
 }
 
 .icon {
-   /* border-radius: 8px; */
   fill: #2a2a2a;
 }
-
-
 
   .tabela-ipsum {
     display: flex;
@@ -370,21 +376,11 @@ margin-bottom: 16px;
     fill: var(--kolor-ikon)
   }
 
-/* .box2 svg{
-  fill: var(--kolor-ikon)
-} */
-
   .box2:hover,
   .box2:focus {
     border-color: var(--kolor-logo);
     fill: var(--kolor-logo);
   }
-
-  /* .box2:hover svg,
-  .box2:focus svg {
-    fill: var(--kolor-logo);
-  } */
-
 
   .kolo {
     display: flex;
@@ -400,23 +396,6 @@ margin-bottom: 16px;
   .kolo:hover,
   .kolo:focus {
   background-color: var(--kolor-logo);
-  }
-
-  /* .kolo:hover svg,
-  .kolo:focus svg {
-  fill: var(--kolor-logo);
-  } */
-
-  .kolo-biale {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    gap:10px;
-    border-radius: 50%;
-    /* border: 1px solid red; */
-    background-color: white;
-    justify-content: center;
-    align-items: center;
   }
 
   .icon-social-media {
@@ -435,11 +414,18 @@ margin-bottom: 16px;
   fill: white
 }
 
+.kolo-biale {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  fill: var(--kolor-ikon);
+}
+
   .kolo-biale:hover,
   .kolo-biale:focus {
-    width: 44px;
-    height: 44px;
-    border-radius:50%;
     background-color: var(--kolor-logo);
     fill: white
   }
