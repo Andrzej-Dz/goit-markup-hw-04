@@ -176,6 +176,21 @@ margin-left:15px;
   font-weight: 400;
 }
 
+.kontakt-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  fill: var(--kolor-kontakt);
+  }
+
+  .kontakt-icon:hover,
+  .kontakt-icon:focus {
+    fill: var(--kolor-logo);
+    color: var(--kolor-logo);
+  }
+
 .wiersz-przyciskow {
   padding-bottom: 50px;
   display: flex; 
@@ -317,21 +332,7 @@ margin-bottom: 16px;
   fill: #2a2a2a;
 }
 
-.kontakt-icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-  gap: 10px;
-  }
 
-  .kontakt-icon:hover,
-  .kontakt-icon:focus,
-  .kontakt:hover,
-  .kontakt:focus {
-    fill: var(--kolor-logo);
-    color: var(--kolor-logo);
-  }
 
   .tabela-ipsum {
     display: flex;
@@ -363,25 +364,26 @@ margin-bottom: 16px;
     height: 92px;
     border: 1px solid var(--kolor-ikon);
     border-radius: 4px;
-    background-color:white;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    fill: var(--kolor-ikon)
   }
 
-.box2 svg{
+/* .box2 svg{
   fill: var(--kolor-ikon)
-}
+} */
 
   .box2:hover,
   .box2:focus {
     border-color: var(--kolor-logo);
-  }
-
-  .box2:hover svg,
-  .box2:focus svg {
     fill: var(--kolor-logo);
   }
+
+  /* .box2:hover svg,
+  .box2:focus svg {
+    fill: var(--kolor-logo);
+  } */
 
 
   .kolo {

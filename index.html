@@ -350,21 +350,26 @@
         <a class="link" href="#">Kontakty</a>
       </nav>
 
-      <div class="kontakt-icon" style="padding-left: 345px">
-        <a class="kontakt" href="mailto:info@devstudio.com">
+      <a
+        class="kontakt"
+        href="mailto:info@devstudio.com"
+        style="margin-left: 345px"
+      >
+        <div class="kontakt-icon">
           <svg width="16" height="12">
-            <use href="./images/icons.svg#icon-mail-koperta"></use>
+            <use href="#icon-mail-koperta"></use>
           </svg>
-          info@devstudio.com
-        </a>
-      </div>
-
-      <div class="kontakt-icon" style="padding-left: 30px">
-        <svg width="10" height="16">
-          <use href="./images/icons.svg#icon-phone"></use>
-        </svg>
-        <a class="kontakt" href="#">+48 111 111 111</a>
-      </div>
+          <p>info@devstudio.com</p>
+        </div>
+      </a>
+      <a class="kontakt" href="#" style="margin-left: 30px">
+        <div class="kontakt-icon">
+          <svg width="10" height="16">
+            <use href="#icon-phone"></use>
+          </svg>
+          <p>+48 111 111 111</p>
+        </div>
+      </a>
     </header>
     <main class="strona">
       <section class="ogloszenie">
@@ -561,6 +566,7 @@
       </section>
       <section class="odstep-sekcji">
         <h2 class="sekcja-naglowek">Nasi klienci</h2>
+
         <div class="tabela-ipsum2">
           <div class="box2">
             <svg width="106" height="60">
