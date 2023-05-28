@@ -407,8 +407,8 @@ margin-bottom: 16px;
 
   .kolo-biale {
     display: flex;
-    width: 440px;
-    height: 440px;
+    width: 44px;
+    height: 44px;
     gap:10px;
     border-radius: 50%;
     /* border: 1px solid red; */
