@@ -391,8 +391,13 @@ margin-bottom: 16px;
   }
 
   .kolo:hover,
-  .kolo.focus {
+  .kolo:focus {
   background-color: var(--kolor-logo);
+  }
+
+  .kolo:hover svg,
+  .kolo:focus svg {
+  fill: var(--kolor-logo);
   }
 
   .kolo-biale {
