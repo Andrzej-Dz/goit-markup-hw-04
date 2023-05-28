@@ -406,6 +406,14 @@ margin-bottom: 16px;
     color: var(--kolor-ikon);
   }
 
+  .icon-social-media-stopka {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  fill: white
+}
+
   .kolo-biale:hover,
   .kolo-biale:focus {
     width: 44px;
