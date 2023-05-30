@@ -7,7 +7,7 @@
   --kolor-margines-poziomy: #ececec;
   --kolor-tlo: #e5e5e5;
   --kolor-ramki-zdjec: #eeeeee;
-  --kolor-ikon:  #AFB1B8;
+  --kolor-ikon: #afb1b8;
 }
 
 * {
@@ -65,7 +65,7 @@ button {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;  
+  letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
   padding-bottom: 50px;
@@ -93,11 +93,10 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 12px;
   margin-bottom: 20px;
-  }
-
+}
 
 .ogloszenie {
   text-align: center;
@@ -124,7 +123,7 @@ button {
 }
 
 .logo-margines-lewy {
-margin-left:15px;
+  margin-left: 15px;
 }
 
 .logo .logo-stopka-gora {
@@ -173,13 +172,18 @@ margin-left:15px;
 }
 
 .kontakt-adres:hover,
-  kontakt-adres:focus {
+.kontakt-adres:focus {
   text-decoration-color: var(--kolor-logo);
 }
 
 .kontakt-stopka {
   letter-spacing: 0.03em;
   font-weight: 400;
+}
+
+.kontakt:hover,
+.kontakt:focus {
+  color: var(--kolor-logo);
 }
 
 .kontakt-icon {
@@ -189,20 +193,20 @@ margin-left:15px;
   align-items: center;
   gap: 10px;
   fill: var(--kolor-kontakt);
-  }
+}
 
-  .kontakt-icon:hover,
-  .kontakt-icon:focus {
-    fill: var(--kolor-logo);
-    color: var(--kolor-logo);
-  }
+.kontakt-icon:hover,
+.kontakt-icon:focus {
+  fill: var(--kolor-logo);
+  color: var(--kolor-logo);
+}
 
 .wiersz-przyciskow {
   padding-bottom: 50px;
-  display: flex; 
+  display: flex;
   gap: 8px;
   justify-content: center;
-  }
+}
 
 .przycisk {
   text-decoration: none;
@@ -234,7 +238,7 @@ margin-left:15px;
 } */
 
 .przycisk-usluga {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -248,17 +252,18 @@ margin-left:15px;
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   background: var(--kolor-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .przycisk:hover,
 .przycisk:focus {
   color: white;
   background: var(--kolor-logo);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -275,7 +280,8 @@ border-radius: 4px;
 }
 
 .wiersz-obrazow > div:hover {
- box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .wiersz-obrazow div div {
@@ -288,11 +294,12 @@ border-radius: 4px;
   gap: 30px;
 }
 
-.wiersz-zespolu> div {
+.wiersz-zespolu > div {
   /* border: 1px solid green; */
   border-radius: 0px 0px 4px 4px;
   background-color: white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   /* var(--kolor-ramki-zdjec); */
 }
 
@@ -330,95 +337,95 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: #212121;
   margin-top: 30px;
-  }
+}
 
 .obraz-zespol-tytul {
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
-margin-top: 10px;
-margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .icon {
   fill: #2a2a2a;
 }
 
-  .tabela-ipsum {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.tabela-ipsum {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  .tabela-ipsum2 {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
+.tabela-ipsum2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
-  .box {
-    display: flex;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
-  }
+.box {
+  display: flex;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
 
-  .box2 {
-    display: flex;
-    width: 170px;
-    height: 92px;
-    border: 1px solid var(--kolor-ikon);
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    fill: var(--kolor-ikon)
-  }
+.box2 {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--kolor-ikon);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  fill: var(--kolor-ikon);
+}
 
-  .box2:hover,
-  .box2:focus {
-    border-color: var(--kolor-logo);
-    fill: var(--kolor-logo);
-  }
+.box2:hover,
+.box2:focus {
+  border-color: var(--kolor-logo);
+  fill: var(--kolor-logo);
+}
 
-  .kolo {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    gap:10px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    justify-content: center;
-    align-items: center;
-  }
+.kolo {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+}
 
-  .kolo:hover,
-  .kolo:focus {
+.kolo:hover,
+.kolo:focus {
   background-color: var(--kolor-logo);
-  }
+}
 
-  .icon-social-media {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    gap: 10px;
-    color: var(--kolor-ikon);
-  }
+.icon-social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+  color: var(--kolor-ikon);
+}
 
-  .icon-social-media-stopka {
+.icon-social-media-stopka {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
-  fill: white
+  fill: white;
 }
 
 .kolo-biale {
@@ -431,12 +438,8 @@ margin-bottom: 16px;
   fill: var(--kolor-ikon);
 }
 
-  .kolo-biale:hover,
-  .kolo-biale:focus {
-    background-color: var(--kolor-logo);
-    fill: white
-  }
-
-
-
-
+.kolo-biale:hover,
+.kolo-biale:focus {
+  background-color: var(--kolor-logo);
+  fill: white;
+}
