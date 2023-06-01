@@ -200,8 +200,8 @@ footer {
   font-weight: 400;
 }
 
-.kontakt a:hover,
-.kontakt a:focus {
+.naglowek a:hover,
+.naglowek a:focus {
   color: var(--kolor-logo);
 }
 
