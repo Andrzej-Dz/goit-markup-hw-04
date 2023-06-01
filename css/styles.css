@@ -46,6 +46,27 @@ button {
   outline: none;
 }
 
+a,
+button,
+.kolo-biale,
+.kolo,
+.box2,
+.wiersz-obrazow > div {
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--kolor-stopka);
+  color: white;
+  padding: 60px 0px;
+}
+
+.container {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .strona {
   width: 1200px;
   margin-left: auto;
@@ -81,10 +102,8 @@ button {
 
 .stopka {
   display: flex;
-  background-color: var(--kolor-stopka);
-  color: white;
-  padding: 60px 15px;
   gap: 70px;
+  padding: 0px 15px;
 }
 
 .stopka-2 {
@@ -102,7 +121,7 @@ button {
   text-align: center;
   background-color: var(--kolor-stopka);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-image: url("../images/tlo.png");
 }
 
@@ -181,8 +200,8 @@ button {
   font-weight: 400;
 }
 
-.kontakt:hover,
-.kontakt:focus {
+.kontakt a:hover,
+.kontakt a:focus {
   color: var(--kolor-logo);
 }
 
@@ -362,7 +381,25 @@ button {
   padding-right: 15px;
 }
 
-.tabela-ipsum2 {
+.ipsum-naglowek {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--kolor-domyslny);
+  margin-bottom: 10px;
+}
+
+.ipsum-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--kolor-kontakt);
+}
+
+.tabela-klientow {
   display: flex;
   justify-content: center;
   gap: 30px;
