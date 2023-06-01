@@ -24,8 +24,8 @@
   <body class="container">
     <header class="strona naglowek odstep">
       <a class="logo logo-margines-lewy" href="index.html">
-        <span>Web</span>
-        <span class="logo-stopka-gora">Studio</span>
+        <p>Web</p>
+        <p class="logo-stopka-gora">Studio</p>
       </a>
       <nav style="padding-left: 93px">
         <a class="link" href="index.html">Agencja</a>
@@ -39,11 +39,25 @@
       <a
         class="kontakt"
         href="mailto:info@devstudio.com"
-        style="padding-left: 364px"
-        >info@devstudio.com</a
+        style="margin-left: 345px"
       >
-      <a class="kontakt" href="#" style="padding-left: 50px">+48 111 111 111</a>
+        <div class="kontakt-icon">
+          <svg width="16" height="12">
+            <use href="./images/icons.svg#icon-mail-koperta"></use>
+          </svg>
+          <p>info@devstudio.com</p>
+        </div>
+      </a>
+      <a class="kontakt" href="#" style="margin-left: 30px">
+        <div class="kontakt-icon">
+          <svg width="10" height="16">
+            <use href="./images/icons.svg#icon-phone"></use>
+          </svg>
+          <p>+48 111 111 111</p>
+        </div>
+      </a>
     </header>
+
     <main class="strona odstep-sekcji">
       <div class="wiersz-przyciskow">
         <button class="przycisk">Wszystkie</button>
