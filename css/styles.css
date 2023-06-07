@@ -127,17 +127,11 @@ footer {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: url("../images/tlo.png");
-  position: relative;
-}
-
-.ogloszenie::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/tlo.png");
 }
 
 .logo {
